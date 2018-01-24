@@ -1,0 +1,142 @@
+body{
+	background-color: rgb(248,248,248);
+}
+
+.container-fluid{
+	width: 80%;
+	background-color: white;
+	border: 1px solid rgb(235,235,235);	
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+
+.contimage{
+	display: flex;
+	justify-content: center;
+}
+
+.grey_icon{
+	filter: grayscale(100%);
+
+}
+#logo{
+	width: 15rem;
+	height: 15rem;
+	
+}
+
+
+nav{
+	display: flex;
+	justify-content: center;
+	color: black;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	width: 80%;
+}
+
+ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+li{
+	margin-left: 2rem;
+	font-family: 'Amatic SC', cursive;
+	font-size: 2.5rem;
+}
+
+.liens{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+h1{
+	margin-top: 10%;
+	font-size: 4.5rem;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+h2{
+	margin-top: 3rem;
+}
+
+section{
+	display: flex;
+	justify-content: center;
+}
+
+.accueil{
+	margin-top: 2rem;
+	height: 100%;
+	width: 80%;
+	color: white;
+	background-image: url(https://images.unsplash.com/photo-1496202703211-aa28e9500c30?auto=format&fit=crop&w=1350&q=80);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 100% 65%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+
+#google_play{
+	height: 4rem;
+	width: auto;	
+	margin-top: 50%;
+	margin-bottom: 3rem;
+	
+}
+
+#google_play:hover{
+	height: 4.2rem;
+	margin-bottom: 2.7rem;
+
+}
+
+.texte{
+	margin:10rem;
+}
+
+
+a{
+	color: black;
+}
+
+a:hover{
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.liens{
+	margin:2rem;
+
+}
+
+.reseaux{
+	list-style: none;
+}
+
+.newsletter{
+	background-image: url(https://images.unsplash.com/photo-1459172704771-187d33feef9a?auto=format&fit=crop&w=1350&q=80);
+	background-size: cover;
+	width: 20%;
+	color: white;
+}
+
+
+
